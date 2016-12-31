@@ -1,0 +1,5 @@
+### Tomcat vs Jetty
+
+At this point the java container wars should be well past, but general perception often seems often seems to stop on the point if you're going to run a java applicaiton server in produciton you have to use tomcat because it's bigger, stronger and conusmes more resources.  But rather than being simply a well established technology I would suggest that it's old and outdated, designed for an era prior to virtualization, when containers weren't even a concept and Linux was barely a viable production platform.  Subsumming many of the tasts that rightfully belong to the OS tomcat simply doesn't fit into a package managed produciton environment. While it could be said that this is a feature of java applicaiton servers in general form the begining jetty was designed to tightly couple the app witht the applicaiton server to the point where the "applicaiton server" simply becomes the internalized network of a fully constructed application.
+
+The solr developer communit seems to agree
